@@ -1,112 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ichiyama Shuyu | Computer Science Student</title>
 
-    <link rel="icon" type="image/jpg" href="images/icon1.jpg">
+    <link rel="icon" type="image/jpg" href="images/icon1.jpg" />
 
     <meta
-        name="description"
-        content="Portfolio of Ichiyama Shuyu, a Computer Science student at Monash University Malaysia."
-    >
+      name="description"
+      content="Portfolio of Ichiyama Shuyu, a Computer Science student at Monash University Malaysia."
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-    <div id="header"></div> <!-- Header component is provided by js loadComponent function-->
+  <body>
+    <div id="header"></div>
+    <!-- Header component is provided by js loadComponent function-->
 
     <main>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a Computer Science student interested in software development,
+          artificial intelligence, and building practical technology solutions.
+        </p>
+      </section>
 
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I am a Computer Science student interested in software development,
-                artificial intelligence, and building practical technology solutions.
-            </p>
-        </section>
+      <section>
+        <h2>Education</h2>
 
-        <section>
-            <h2>Education</h2>
+        <div class="education">
+          <h3>Monash University Malaysia</h3>
+          <p>Bachelor of Computer Science</p>
+          <p>Advanced Computer Science major</p>
 
-            <div class="education">
-                <h3>Monash University Malaysia</h3>
-                <p>Bachelor of Computer Science</p>
-                <p>Advanced Computer Science major</p>
+          <a
+            href="https://www.monash.edu.my/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Monash University Malaysia
+          </a>
+        </div>
+      </section>
 
-                <a
-                    href="https://www.monash.edu.my/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Visit Monash University Malaysia
-                </a>
-            </div>
-        </section>
+      <section>
+        <h2>Academic Projects</h2>
 
-        <section>
-            <h2>Academic Projects</h2>
+        <div class="project">
+          <h3>Learning Management System</h3>
+          <ul>
+            <li>
+              Developed the frontend of a Learning Management System using the
+              PERN stack.
+            </li>
+            <li>
+              Implemented student features including course enrollment,
+              assignment submission, and access to course materials.
+            </li>
+            <li>
+              Implemented teacher features for grade management and course
+              material management.
+            </li>
+          </ul>
+        </div>
 
-            <div class="project">
-                <h3>Learning Management System</h3>
-                <ul>
-                    <li>
-                        Developed the frontend of a Learning Management System
-                        using the PERN stack.
-                    </li>
-                    <li>
-                        Implemented student features including course enrollment,
-                        assignment submission, and access to course materials.
-                    </li>
-                    <li>
-                        Implemented teacher features for grade management and
-                        course material management.
-                    </li>
-                </ul>
-            </div>
+        <div class="project">
+          <h3>Misinformation &amp; Scam Protection</h3>
+          <ul>
+            <li>
+              Worked on an industry project focused on protecting users from
+              misinformation and scams.
+            </li>
+            <li>
+              Applied design thinking and stakeholder analysis to investigate
+              the problem.
+            </li>
+            <li>
+              Developed and evaluated prototype solutions with a human-centred
+              approach.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-            <div class="project">
-                <h3>Misinformation &amp; Scam Protection</h3>
-                <ul>
-                    <li>
-                        Worked on an industry project focused on protecting users
-                        from misinformation and scams.
-                    </li>
-                    <li>
-                        Applied design thinking and stakeholder analysis
-                        to investigate the problem.
-                    </li>
-                    <li>
-                        Developed and evaluated prototype solutions
-                        with a human-centred approach.
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section>
+        <h2>Technical Interests</h2>
 
-        <section>
-            <h2>Technical Interests</h2>
+        <div class="skills">
+          <span class="skill">Software Development</span>
+          <span class="skill">Artificial Intelligence</span>
+          <span class="skill">Web Development</span>
+          <span class="skill">Java</span>
+          <span class="skill">Python</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Data Structures &amp; Algorithms</span>
+        </div>
+      </section>
 
-            <div class="skills">
-                <span class="skill">Software Development</span>
-                <span class="skill">Artificial Intelligence</span>
-                <span class="skill">Web Development</span>
-                <span class="skill">Java</span>
-                <span class="skill">Python</span>
-                <span class="skill">SQL</span>
-                <span class="skill">Data Structures &amp; Algorithms</span>
-            </div>
-        </section>
-
+      <section>
+        <h2>Languages</h2>
+        <div class="languages">
+          <table>
+            <tr>
+              <th>Language</th>
+              <th>Proficiency</th>
+            </tr>
+            <tr>
+              <td>Japanese</td>
+              <td>Native</td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Professional (TOEIC 910)</td>
+            </tr>
+            <tr>
+              <td>Indonesian</td>
+              <td>Beginner</td>
+            </tr>
+          </table>
+        </div>
+      </section>
     </main>
 
-    <div id="footer"></div> <!-- Footer component is provided by js loadComponent function-->
+    <div id="footer"></div>
+    <!-- Footer component is provided by js loadComponent function-->
 
-    <script src="script.js"></script> <!-- defining the src file -->
-
-</body>
+    <script src="script.js"></script>
+    <!-- defining the src file -->
+  </body>
 </html>

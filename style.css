@@ -92,6 +92,36 @@ h3 {
     font-size: 0.95rem;
 }
 
+.languages {
+    margin-bottom: 15px;
+    color: #006dae;
+}
+
+.languages table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.languages th,
+.languages td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.languages th {
+    font-weight: bold;
+    border-bottom: 2px solid #006dae;
+}
+
+.languages tr:last-child td {
+    border-bottom: none;
+}
+
+.languages tr:hover {
+    background-color: #f5f9fc;
+}
+
 footer {
     text-align: center;
     padding: 30px 20px;
